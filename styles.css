@@ -1,0 +1,62 @@
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 400px;
+  }
+  
+  #buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  
+  #box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    transition: top 1s, background-color 1s;
+  }
+  
+  #box.moved {
+    top: 200px;
+    background-color: rgb(217, 44, 194);
+  }
+  
+  #monday {
+    background-color: #7b9cff; /* Red */
+  }
+  
+  #tuesday {
+    background-color: #8785d2; /* Green */
+  }
+  
+  #wednesday {
+    background-color: #936dae; /* Blue */
+  }
+  
+  #thursday {
+    background-color: #b167c9; /* Magenta */
+  }
+  
+  #friday {
+    background-color: #bf39e8; /* Yellow */
+  }
+  
+  #saturday {
+    background-color: #951fd0; /* Cyan */
+  }
+  
+  #sunday {
+    background-color: #3f0361; /* Orange */
+  }
+
+  .button-enlarged {
+    transform: scale(1.2);
+  }
